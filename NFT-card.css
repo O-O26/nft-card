@@ -1,0 +1,122 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit";
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem 0 0 0;
+  font-size: 18px;
+}
+p{
+  font-size: 1.5rem;
+  margin: 0.75em 0 0 0.5em;
+  color:  hsl(215, 51%, 70%);
+  font-weight: 300;
+  line-height: 1.5em;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 47rem;
+  width: 27rem;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  padding: 1em;
+}
+
+#top-pic{
+  height: 25rem;
+  width: 25rem;
+  border-radius: 10px;
+  margin: 0 0 0 1em;
+}
+#heading{
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 0.3em 0 0.3em 0.3em;
+}
+.selling{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 0 0.4em;
+}
+.item-desc{
+  display: flex;
+}
+#ethereum{
+  height: 1.5rem;
+  margin: 2em 0.6em 0 1.2em;
+}
+#price{
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  margin: 1.25em 0 0 0;
+  font-size: 1.5rem;
+}
+.time{
+  display: flex;
+}
+#time-left{
+  font-size: 1.5rem;
+  margin: 1.25em 0 0 0.2em;
+}
+.text{
+  margin: 0.3em 0 0.3em 0.5em;
+}
+#clock{
+  height: 1.8rem;
+  margin: 1.9em 0.3em 0 0.2em;
+}
+hr{
+  height: 1px;
+  overflow: hidden;
+  text-align: center;
+  width: 90%;
+  border: 1px solid hsl(215, 51%, 70%);
+  margin: 2rem 0 1rem 1.7rem;
+}
+.profile{
+  display: flex;
+}
+#creation{
+  font-size: 0.75em;
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin: 1em 0 0 0;
+}
+#profile-pic{
+  height: 3rem;
+  width: 3rem;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  margin: 1em 1em 0 1em;
+}
+span{
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+}
+
+.attribution {
+  margin: 3em 0 0 0;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 31.25em){
+  .container{
+    display: flex;
+    flex-direction: column;
+    height: 47rem;
+    width: 27rem;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding: 1em;
+  }  
+}
